@@ -42,3 +42,8 @@
 
 ## db-[99:101]-node.example.com
 
+[centos_nodes]
+127.0.0.1 ansible_connection=local
+
+[ubuntu_nodes]
+20.107.186.134 ansible_user=codehub
